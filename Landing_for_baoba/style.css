@@ -1,0 +1,26 @@
+/*importação de fonte via google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/*fonte person*/
+@font-face {
+    font-family: "rimba_Andalas";
+    src: url(font/Rimba_Andalas.ttf);
+}
+
+/*padrãozin css*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(245, 238, 147);
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+/*Mainzada*/
+.main {
+    text-align:center;
+    height:100vh;
+}
